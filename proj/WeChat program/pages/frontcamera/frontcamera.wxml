@@ -1,0 +1,18 @@
+<view class="container">
+  <!-- 关闭当前界面，跳转到camera界面 -->
+  <navigator url="/pages/camera/camera" open-type="redirect">
+      点击拍照
+  </navigator>
+  <!-- 展示相机，高度420rpx，点击即可拍照 -->
+  <camera style="height:420rpx" bindtap="takePhoto" device-position="front"> 点击拍照</camera>
+</view>
+
+<!-- 图像临时缓存路径 -->
+<view class="container">
+  <image src="{{previewImagePath}}" mode="aspectFit"></image>
+</view>
+
+<view class="container">
+  <!-- 确认按钮返回图像 -->
+  <button bindtap="okPicture">确定</button>
+</view>

@@ -1,0 +1,30 @@
+<!-- 主页面 -->
+<!--index.wxml-->
+
+<!-- 获取用户登录信息 -->
+<view class="container">
+  <view class="userinfo">
+    <!-- open-type="getUserInfo"引导用户授权获取用户信息getUserInfo  说明：引导用户授权获取用户信息，可以从bindgetuserinfo回调中获取到用户信息
+而按钮的bindgetuserinfo属性  说明：用户点击该按钮时，会返回获取到的用户信息，回调的detail数据与wx.getUserInfo返回的一致，open-type="getUserInfo"时有效 -->
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <!-- 获取头像 -->
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <!-- 获取昵称 -->
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+<view class="container">
+  <!-- 保留当前页面，跳转到editor界面 -->
+  <navigator url="/pages/editor/editor" open-type="navigate" style="margin:20rpx">
+    拍照上传
+  </navigator>
+  <!-- 跳转到home界面，并关闭其他所有非tabBar页面 -->
+  <navigator url="/pages/home/home" open-type="switchTab">
+    本地上传
+  </navigator>
+</view>
+
+
+
