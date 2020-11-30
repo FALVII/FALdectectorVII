@@ -1,0 +1,30 @@
+<!--pages/home/home.wxml-->
+<!-- 上传显示图像 -->
+<!-- mode代表图像的剪切、缩放方式 -->
+<button bindtap="selectImage">上传图片</button>
+<view>
+    <image src='{{imagePath}}' mode="aspectFit"></image>
+ </view>
+
+  <!-- <image src="https://wy.vvh5.com/randimg?rand=520"></image> -->
+  <!-- 保存图像 -->
+  <button bindtap='savePoster'>保存图片</button>
+  <button >开始检测</button>
+
+  <!-- 插入11.png图像 -->
+  <view>
+    <image src='/icon/11.png' mode="aspectFill"></image>
+ </view> 
+
+<!-- 显示联网，电量情况  -->
+<view>
+  <!-- 联网状态和网络状态 -->
+  联网情况 ： {{connStat}},{{netType}}
+</view>
+<view>
+  <!-- 电量水平，充电 -->
+  电量 ：{{level}},{{charging}}
+</view>
+<view class="container">
+  {{manResult}}
+</view>

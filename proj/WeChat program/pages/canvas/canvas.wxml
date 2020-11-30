@@ -1,0 +1,7 @@
+<!--pages/canvas/canvas.wxml-->
+<!-- <text>pages/canvas/canvas.wxml</text> -->
+<!-- 检测功能 还未实现有待改进-->
+<view class="container" style="margin-top:2.4rem;">
+  <canvas canvas-id="paint" style="height:520px;width:360px;background:#fafaff"></canvas>
+</view>
+<button >开始检测</button>

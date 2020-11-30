@@ -1,0 +1,19 @@
+<!--pages/camera/camera.wxml-->
+<!-- 拍照功能 -->
+<view class="container">
+  <navigator url="/pages/frontcamera/frontcamera" open-type="redirect">
+    [-]
+  </navigator>
+  <!-- //点击图像拍照 -->
+  <camera style="height:420rpx" bindtap="takePhoto"></camera>
+</view>
+
+<view class="container">
+  <!-- 所拍图像临时缓存路径 -->
+  <image src="{{previewImagePath}}" mode="aspectFit"></image>
+</view>
+
+<view class="container">
+  <!-- okPicture返回页面信息 js-->
+  <button bindtap="okPicture">确定</button>
+</view>

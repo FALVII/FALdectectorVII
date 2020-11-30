@@ -1,0 +1,8 @@
+<!--pages/content/content.wxml-->
+<!-- <text>pages/content/content.wxml</text> -->
+<!-- 底部拍照功能的界面有待完善 -->
+<view>
+  <view class="container">{{title}}</view>
+  <rich-text nodes="{{content}}"></rich-text>
+</view>
+<button >开始检测</button>
