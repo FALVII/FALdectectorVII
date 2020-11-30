@@ -40,3 +40,6 @@
 + [DRN与GAN介绍(gao)](https://blog.csdn.net/m0_43414114/article/details/109952842)
 + [tools注释（张世禹）](https://blog.csdn.net/therain123/article/details/110003262)
 + [eval注释（张世禹）](https://blog.csdn.net/therain123/article/details/109957073)
++ [ubuntu下的git命令（李少航）](https://blog.csdn.net/Only_Big/article/details/109956624)
++ [读eval.py代码总结（李少航）](https://blog.csdn.net/Only_Big/article/details/109800580)
+
