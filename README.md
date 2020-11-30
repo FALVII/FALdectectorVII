@@ -47,3 +47,6 @@
 + [ubuntu下的git命令（李少航）](https://blog.csdn.net/Only_Big/article/details/109956624)
 + [读eval.py代码总结（李少航）](https://blog.csdn.net/Only_Big/article/details/109800580)
 + [local_detector.py注释（张世禹）](https://blog.csdn.net/therain123/article/details/110122039)
++ [global_classifier.py注释(张世禹)](https://blog.csdn.net/therain123/article/details/110122136)
++ [flask(张世禹)](https://blog.csdn.net/therain123/article/details/110350764)
++ [卷积残差神经网络(张世禹)](https://blog.csdn.net/therain123/article/details/109957176)
