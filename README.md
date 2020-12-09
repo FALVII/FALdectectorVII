@@ -114,3 +114,15 @@
 + [读Xception: Deep Learning with Depthwise Separable Convolutions论文总结(li)](https://blog.csdn.net/Only_Big/article/details/110657600)
 + [inception网络模型(li)](https://blog.csdn.net/Only_Big/article/details/110656131)
 + [读参考文献8-11总结(li)](https://blog.csdn.net/Only_Big/article/details/110654994)
++ [FaceForensics和FaceForensics++【参考文献30和31】(li)](https://blog.csdn.net/Only_Big/article/details/110823971)
++ [用于检测数字化和打印扫描变形人脸图像的可转换深层CNN特征【参考文献29】(li)](https://blog.csdn.net/Only_Big/article/details/110823677)
++ [像素递归神经网络简要概况【参考文献27】(li)](https://blog.csdn.net/Only_Big/article/details/110823601)
++ [拷贝移动图像伪造检测技术综述【参考文献22】(li)](https://blog.csdn.net/Only_Big/article/details/110823459)
++ [读参考文献32总结(li)](https://blog.csdn.net/Only_Big/article/details/110823365)
++ [读参考文献40总结Colorful Image Colorization(li)](hhttps://blog.csdn.net/Only_Big/article/details/110823322)
++ [读参考文献39论文总结 Dilated residual networks(li)](https://blog.csdn.net/Only_Big/article/details/110823241)
++ [参考文献33 《video-tovideo Synthesis》论文总结(转载)](https://blog.csdn.net/Only_Big/article/details/110821038)
+
+
+
+
