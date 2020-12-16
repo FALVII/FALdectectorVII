@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>demo4</title>
+  <link href="../static/demo4.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id = "img1">
+                <img src={{input_str}} alt="Your picture was hijacked by aliens～～">
+
+                <!-- <img   src= '../static/input/default.jpg' alt="Your picture was hijacked by aliens～～"> -->
+                <span>Original image</span>
+                
+            </div>
+            <div id = "img2">
+                <img src={{output_str}}  alt="Your picture was hijacked by aliens～～">
+                <!-- <img  src= '../static/input/flickr_0511.png' alt="Your picture was hijacked by aliens～～"> -->
+               <span>Checked image</span>
+                
+            </div>
+            <div id = "img3">
+                <img src={{restore_str}}  alt="Your picture was hijacked by aliens～～">
+
+                <!-- <img src= '../static/input/flickr_0512.png' alt="Your picture was hijacked by aliens～～"> -->
+                <span>Restore image</span>
+            </div>
+        </div>
+
+
+        <div class="middle" >
+           
+            Welcome to the world of image reconnaissance, 
+            where you can detect if an image is distorted,
+            get the probability of being modified, 
+            and predict the recovery of a real image.             
+        </div> 
+    
+        <form action="/submit" method = "post" enctype= "multipart/form-data ">
+            <input id = 'submit' type="submit" value="Submit">
+            <div class="file">Upload<input id = 'upload' type="file" name = "file"></div>
+            
+        </form>
+    
+    
+        <form action="/posibility" method = "post" enctype= "multipart/form-data ">
+            <input id = 'out' type="submit" value="Predict">
+        </form>
+        
+        
+        <form action="/restore" method = "post" enctype= "multipart/form-data ">
+            <input id="restore" type="submit" value = "Restore">
+        </form>
+        <form action="/check" method = "post" enctype= "multipart/form-data ">
+            <input id="check" type="submit" value = "Detector">
+        </form>
+        <p>{{posibility}}</p>
+        
+    </div>
+    
+
+
+
+
+   <canvas id="background" height=auto width=auto>你的浏览器不支持canvas</canvas>
+  <script type="text/javascript" src="../static/demo4.js"></script>
+</body>
+
+</html>
+
+
+
+
+

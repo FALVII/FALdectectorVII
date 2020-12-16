@@ -1,0 +1,158 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+body {
+    height: auto;
+    width: auto;
+    overflow:hidden; 
+    background-color:red ;
+}
+
+#container{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    background-image: linear-gradient(rgba(29, 24, 27, 0.5), rgba(119, 0, 255, 0.5));
+}
+span{
+    position:absolute;
+    top:5%;
+    left:30%;
+}
+#container div{
+    position: absolute;
+    top:10%;
+    height:75%;
+    width:25%;
+    /* background: url("./input/border.png")no-repeat center; */
+    /* background-size:100%; */
+    /* background-color: rgb(128,128,128,.3) ; */
+    background-color: rgb(133, 214, 117);
+    opacity: 0.8;
+    /* border:2px solid white; */
+    /* box-shadow: 23px 23px 26px rgb(114, 112, 112); */
+    box-shadow: 23px 23px 26px rgb(174, 209, 166);
+    border-radius: 10%;
+    color:white;
+}
+#img1{
+    left:8%;
+}
+#img2{
+    left:38%;
+} 
+#img3{
+    left:68%;
+}
+img {
+    position:relative;
+    top:15%;
+    left:10%;
+    height: 80%;
+    width: 80%;
+    /* box-shadow: 23px 23px 26px rgb(114, 112, 112); */
+}
+.middle{
+    position: absolute;
+    top:65%;
+    left:15%;
+    height:8%;
+    width:70%;
+    /* background-color: black; */
+    color:white;
+    font: 20px bold ;
+    text-align:center;
+}
+
+
+
+/* form{
+    border:3px solid rgb(9, 255, 0);
+} */
+
+input{
+    border:2px solid orange;
+    position: absolute;
+    top:80%;
+    width:10%;
+    height:8%;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    font:18px bold;
+    cursor:pointer;
+    opacity: 0.8;
+}
+
+.file {
+    display: inline-block;
+    position: absolute;
+    top:80%;
+    left:5%;
+    width:10%;
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    font:bold;
+    background: #eba40d;
+    border: 1px solid #99D3F5;
+    border-radius: 40px;
+    overflow: hidden;
+    color: white;  
+    
+}
+.file input {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width:100%;
+    background-color: #caca2b;
+}
+.file:hover {
+    background-color:transparent;
+}
+
+#submit{
+    left:25%; 
+    background-color: blue;
+}
+
+#submit:hover{
+    background-color:transparent;
+}
+#out{
+    background-color:grey;
+    /* left:35%; */
+    left:45%;
+}
+#out:hover{
+    background-color:transparent;
+}
+#check{
+    background-color:green;
+    left:65%;
+}
+#check:hover{
+    background-color:transparent;
+}
+#restore{
+    background-color:saddlebrown;
+    left:85%;
+}
+#restore:hover{
+    background-color:transparent;
+}
+p{
+    position: absolute;
+    top:90%;
+    /* border:2px solid rgb(212, 187, 212); */
+    width: 100%;
+    text-align: center;
+    font:30px oblique bold;
+    color:white;
+}
+
