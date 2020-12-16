@@ -119,7 +119,7 @@
 + [像素递归神经网络简要概况【参考文献27】(li)](https://blog.csdn.net/Only_Big/article/details/110823601)
 + [拷贝移动图像伪造检测技术综述【参考文献22】(li)](https://blog.csdn.net/Only_Big/article/details/110823459)
 + [读参考文献32总结(li)](https://blog.csdn.net/Only_Big/article/details/110823365)
-+ [读参考文献40总结Colorful Image Colorization(li)](hhttps://blog.csdn.net/Only_Big/article/details/110823322)
++ [读参考文献40总结Colorful Image Colorization(li)](https://blog.csdn.net/Only_Big/article/details/110823322)
 + [读参考文献39论文总结 Dilated residual networks(li)](https://blog.csdn.net/Only_Big/article/details/110823241)
 + [参考文献33 《video-tovideo Synthesis》论文总结(转载)](https://blog.csdn.net/Only_Big/article/details/110821038)
 
