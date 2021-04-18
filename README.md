@@ -1,4 +1,4 @@
-# FALdectectorVII
+# FALdetectorVII
 
 ## 目标:
 
